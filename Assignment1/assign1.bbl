@@ -1,0 +1,161 @@
+\begin{thebibliography}{10}
+
+\bibitem{syntacticNGrams}
+G.~Sidorov, F.~Velasquez, E.~Stamatatos, A.~Gelbukh, and L.~Chanona-Hernández,
+  ``Syntactic n-grams as machine learning features for natural language
+  processing,'' {\em Expert Systems with Applications}, vol.~41, no.~3,
+  pp.~853--860, 2014.
+\newblock Methods and Applications of Artificial and Computational
+  Intelligence.
+
+\bibitem{neuralText}
+H.~Zhang, R.~Sproat, A.~H. Ng, F.~Stahlberg, X.~Peng, K.~Gorman, and B.~Roark,
+  ``{Neural Models of Text Normalization for Speech Applications},'' {\em
+  Computational Linguistics}, vol.~45, pp.~293--337, 06 2019.
+
+\bibitem{wordEmbed}
+A.~Drozd, A.~Gladkova, and S.~Matsuoka, ``Word embeddings, analogies, and
+  machine learning: Beyond king - man + woman = queen,'' in {\em Proceedings of
+  {COLING} 2016, the 26th International Conference on Computational
+  Linguistics: Technical Papers}, (Osaka, Japan), pp.~3519--3530, The COLING
+  2016 Organizing Committee, Dec. 2016.
+
+\bibitem{phishing}
+T.~Peng, I.~Harris, and Y.~Sawa, ``Detecting phishing attacks using natural
+  language processing and machine learning,'' in {\em 2018 IEEE 12th
+  International Conference on Semantic Computing (ICSC)}, pp.~300--301, 2018.
+
+\bibitem{humordetection}
+C.~Shani, N.~Borenstein, and D.~Shahaf, ``{H}ow did this get funded?!
+  {A}utomatically identifying quirky scientific achievements,'' in {\em
+  Proceedings of the 59th Annual Meeting of the Association for Computational
+  Linguistics and the 11th International Joint Conference on Natural Language
+  Processing (Volume 1: Long Papers)}, (Online), pp.~14--28, Association for
+  Computational Linguistics, Aug. 2021.
+
+\bibitem{schizoReddit}
+J.~Zomick, S.~I. Levitan, and M.~Serper, ``Linguistic analysis of schizophrenia
+  in {R}eddit posts,'' in {\em Proceedings of the Sixth Workshop on
+  Computational Linguistics and Clinical Psychology}, (Minneapolis, Minnesota),
+  pp.~74--83, Association for Computational Linguistics, June 2019.
+
+\bibitem{sarcasm}
+D.~Ghosh, A.~R. Fabbri, and S.~Muresan, ``Sarcasm analysis using conversation
+  context,'' {\em Computational Linguistics}, vol.~44, pp.~755--792, Dec. 2018.
+
+\bibitem{irony}
+C.~Van~Hee, E.~Lefever, and V.~Hoste, ``We usually don{'}t like going to the
+  dentist: Using common sense to detect irony on {T}witter,'' {\em
+  Computational Linguistics}, vol.~44, pp.~793--832, Dec. 2018.
+
+\bibitem{transferLearn}
+S.~Ruder, M.~E. Peters, S.~Swayamdipta, and T.~Wolf, ``Transfer learning in
+  natural language processing,'' in {\em Proceedings of the 2019 Conference of
+  the North {A}merican Chapter of the Association for Computational
+  Linguistics: Tutorials}, (Minneapolis, Minnesota), pp.~15--18, Association
+  for Computational Linguistics, June 2019.
+
+\bibitem{unsupervisedClass}
+Z.~Haj-Yahia, A.~Sieg, and L.~A. Deleris, ``Towards unsupervised text
+  classification leveraging experts and word embeddings,'' in {\em Proceedings
+  of the 57th Annual Meeting of the Association for Computational Linguistics},
+  (Florence, Italy), pp.~371--379, Association for Computational Linguistics,
+  July 2019.
+
+\bibitem{commonsense}
+J.~Davison, J.~Feldman, and A.~Rush, ``Commonsense knowledge mining from
+  pretrained models,'' in {\em Proceedings of the 2019 Conference on Empirical
+  Methods in Natural Language Processing and the 9th International Joint
+  Conference on Natural Language Processing (EMNLP-IJCNLP)}, (Hong Kong,
+  China), pp.~1173--1178, Association for Computational Linguistics, Nov. 2019.
+
+\bibitem{eventExtract}
+J.~Liu, Y.~Chen, K.~Liu, W.~Bi, and X.~Liu, ``Event extraction as machine
+  reading comprehension,'' in {\em Proceedings of the 2020 Conference on
+  Empirical Methods in Natural Language Processing (EMNLP)}, (Online),
+  pp.~1641--1651, Association for Computational Linguistics, Nov. 2020.
+
+\bibitem{selfSuper}
+D.~Ruiter, C.~Espa{\~n}a-Bonet, and J.~van Genabith, ``Self-supervised neural
+  machine translation,'' in {\em Proceedings of the 57th Annual Meeting of the
+  Association for Computational Linguistics}, (Florence, Italy),
+  pp.~1828--1834, Association for Computational Linguistics, July 2019.
+
+\bibitem{modelingAsync}
+S.~Joty and T.~Mohiuddin, ``Modeling speech acts in asynchronous conversations:
+  A neural-{CRF} approach,'' {\em Computational Linguistics}, vol.~44,
+  pp.~859--894, Dec. 2018.
+
+\bibitem{catasFor}
+B.~Thompson, J.~Gwinnup, H.~Khayrallah, K.~Duh, and P.~Koehn, ``Overcoming
+  catastrophic forgetting during domain adaptation of neural machine
+  translation,'' in {\em Proceedings of the 2019 Conference of the North
+  {A}merican Chapter of the Association for Computational Linguistics: Human
+  Language Technologies, Volume 1 (Long and Short Papers)}, (Minneapolis,
+  Minnesota), pp.~2062--2068, Association for Computational Linguistics, June
+  2019.
+
+\bibitem{hatespeech}
+P.~R{\"o}ttger, B.~Vidgen, D.~Nguyen, Z.~Waseem, H.~Margetts, and
+  J.~Pierrehumbert, ``{H}ate{C}heck: Functional tests for hate speech detection
+  models,'' in {\em Proceedings of the 59th Annual Meeting of the Association
+  for Computational Linguistics and the 11th International Joint Conference on
+  Natural Language Processing (Volume 1: Long Papers)}, (Online), pp.~41--58,
+  Association for Computational Linguistics, Aug. 2021.
+
+\bibitem{politicalHate}
+M.~Wich, J.~Bauer, and G.~Groh, ``Impact of politically biased data on hate
+  speech classification,'' in {\em Proceedings of the Fourth Workshop on Online
+  Abuse and Harms}, (Online), pp.~54--64, Association for Computational
+  Linguistics, Nov. 2020.
+
+\bibitem{harassClass}
+I.~Arora, J.~Guo, S.~I. Levitan, S.~McGregor, and J.~Hirschberg, ``A novel
+  methodology for developing automatic harassment classifiers for {T}witter,''
+  in {\em Proceedings of the Fourth Workshop on Online Abuse and Harms},
+  (Online), pp.~7--15, Association for Computational Linguistics, Nov. 2020.
+
+\bibitem{twoStep}
+J.~H. Park and P.~Fung, ``One-step and two-step classification for abusive
+  language detection on twitter,'' 2017.
+
+\bibitem{raceBi}
+T.~Davidson, D.~Bhattacharya, and I.~Weber, ``Racial bias in hate speech and
+  abusive language detection datasets,'' 2019.
+
+\bibitem{biasData}
+M.~Wiegand, J.~Ruppenhofer, and T.~Kleinbauer, ``{D}etection of {A}busive
+  {L}anguage: the {P}roblem of {B}iased {D}atasets,'' in {\em Proceedings of
+  the 2019 Conference of the North {A}merican Chapter of the Association for
+  Computational Linguistics: Human Language Technologies, Volume 1 (Long and
+  Short Papers)}, (Minneapolis, Minnesota), pp.~602--608, Association for
+  Computational Linguistics, June 2019.
+
+\bibitem{abusiveLang}
+C.~Nobata, J.~Tetreault, A.~Thomas, Y.~Mehdad, and Y.~Chang, ``Abusive language
+  detection in online user content,'' in {\em Proceedings of the 25th
+  International Conference on World Wide Web}, WWW '16, (Republic and Canton of
+  Geneva, CHE), p.~145–153, International World Wide Web Conferences Steering
+  Committee, 2016.
+
+\bibitem{classModel}
+J.~Serr{\`a}, I.~Leontiadis, D.~Spathis, G.~Stringhini, J.~Blackburn, and
+  A.~Vakali, ``Class-based prediction errors to detect hate speech with
+  out-of-vocabulary words,'' in {\em Proceedings of the First Workshop on
+  Abusive Language Online}, (Vancouver, BC, Canada), pp.~36--40, Association
+  for Computational Linguistics, Aug. 2017.
+
+\bibitem{annoInf}
+Z.~Waseem, ``Are you a racist or am i seeing things? annotator influence on
+  hate speech detection on twitter,'' in {\em Proceedings of the first workshop
+  on NLP and computational social science}, pp.~138--142, 2016.
+
+\bibitem{lexiAbu}
+M.~Wiegand, J.~Ruppenhofer, A.~Schmidt, and C.~Greenberg, ``Inducing a lexicon
+  of abusive words {--} a feature-based approach,'' in {\em Proceedings of the
+  2018 Conference of the North {A}merican Chapter of the Association for
+  Computational Linguistics: Human Language Technologies, Volume 1 (Long
+  Papers)}, (New Orleans, Louisiana), pp.~1046--1056, Association for
+  Computational Linguistics, June 2018.
+
+\end{thebibliography}

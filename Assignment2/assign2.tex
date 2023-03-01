@@ -1,0 +1,31 @@
+\documentclass[a4]{article}
+\title{Assignment 2}
+\author{Ravi Regulagedda}
+\date{}
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\begin{document}
+\maketitle
+The task chosen is Task 8 from SemEval-2021. This task is called MeasEval and deals with extracting counts and measurements and their related contexts. 
+\\
+
+The first paper is \cite{karia-etal-2021-kgp} -  \textbf{Leveraging Multi-Staged Language
+Models for Extracting Measurements, their Attributes and Relations.} The authors propose a 3-stage pipeline to address the task of measurement extraction by modeling it as entity and semantic relation extraction task. The first stage uses a pre-trained BERT model to detect quantity segments in sentences. The second stage takes these segments as input and extracts the units and modifiers from it. The third stage also takes input from the first stage to produce representations for each sub-token. These representations are used to detect the entity being measured for each quantity. 
+
+The features used in these stages are the tokens extracted from the input via the BERT tokenizer in the first stage. The authors show that they are able to get an F1 score improvement of 500\% over the baseline. 
+\\
+
+The second paper is \cite{pouran-ben-veyseh-etal-2021-dpr} - \textbf{Dynamic Path Reasoning for Measurement Relation Extraction.} This paper uses a deep translation model to classify the relation between pairs of entities. The paper also introduces a regularization technique to filter out the noise from the data. Entity-type embedding is used to to vectorise the input words which are fed into a bidirectional LSTM. The hidden states of the neurons in this BiLSTM are used as inputs for the model. The authors also show that this approach is able to generalize better than other similar approaches.
+\\
+
+The third paper is \cite{therien-etal-2021-clac} - \textbf{SciBERT Plus Rules for MeasEval}. The authors introduce a pipeline of different Ml and rule-based methods. The final step is a SciBERT based model which classifies tokens into one of 5 classes each representing different types of measurements in the text. The text tokenization is done by SpaCy which is then fed into a fine-tuned SciBERT model. 
+\\
+
+Of these approaches, the first paper would have been the best due to the huge improvement in the F1 score, while the third paper will be the second best among these three due to the due it being able to generalize better.
+\\
+
+In the actual results overview paper, the first paper placed third, the third paper placed eight while I could not find the position of the second paper on the leaderboard.
+\bibliographystyle{ieeetr}
+\bibliography{assign2}
+
+\end{document}

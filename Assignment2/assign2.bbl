@@ -1,0 +1,23 @@
+\begin{thebibliography}{1}
+
+\bibitem{karia-etal-2021-kgp}
+N.~Karia, A.~Kaushal, and F.~Mallick, ``{KGP} at {S}em{E}val-2021 task 8:
+  Leveraging multi-staged language models for extracting measurements, their
+  attributes and relations,'' in {\em Proceedings of the 15th International
+  Workshop on Semantic Evaluation (SemEval-2021)}, (Online), pp.~387--396,
+  Association for Computational Linguistics, Aug. 2021.
+
+\bibitem{pouran-ben-veyseh-etal-2021-dpr}
+A.~Pouran Ben~Veyseh, F.~Dernoncourt, and T.~H. Nguyen, ``{DPR} at
+  {S}em{E}val-2021 task 8: Dynamic path reasoning for measurement relation
+  extraction,'' in {\em Proceedings of the 15th International Workshop on
+  Semantic Evaluation (SemEval-2021)}, (Online), pp.~397--403, Association for
+  Computational Linguistics, Aug. 2021.
+
+\bibitem{therien-etal-2021-clac}
+B.~Therien, P.~Bagherzadeh, and S.~Bergler, ``{CL}a{C}-{BP} at {S}em{E}val-2021
+  task 8: {S}ci{BERT} plus rules for {M}eas{E}val,'' in {\em Proceedings of the
+  15th International Workshop on Semantic Evaluation (SemEval-2021)}, (Online),
+  pp.~410--415, Association for Computational Linguistics, Aug. 2021.
+
+\end{thebibliography}

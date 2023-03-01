@@ -1,0 +1,89 @@
+\documentclass[a4]{article}
+\title{Assignment 1}
+\author{Ravi Regulagedda}
+\date{}
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\begin{document}
+\maketitle
+\section*{Machine Learning in CL}
+\subsection*{Preprocessing}
+
+\textbf{Feature Selection using syntactic n-grams} \cite{syntacticNGrams} This paper talks about the use of syntactic n-grams as features in a machine learning model. Having described n-grams and syntactic n-grams in detail, the authors go on to use them as features in the task of predicting author attribution. Having created features from data using sn-grams, the authors compared them with word-based n-grams, POS n-grams, and character-based n-grams for three classification models - Support Vector Machines, Naive Bayes and Decision Trees. Published in \textit{Expert Systems with Applications, 2014} from Google Scholar
+\\
+\\
+\textbf{Neural Models for Text Normalization} \cite{neuralText} This paper focuses the text normalization that has to be done before feeding the text data into a TTS (text-to-speech) model. The authors propose a neural network to treat this process of text normalization as a sequence-to-sequence problem. This approach has allowed the authors to also integrate tagging and segmentation into this process. They also use finite-state grammars to provide additional context to the neural net to improve performance. Published in \textit{Computational Linguistics, vol 45, 2019} from Google Scholar
+\\
+\\
+\textbf{Word Embeddings and Machine Learning} \cite{wordEmbed} This paper provides a new metric to identify the quality of the relationships between word embedding pairs (eg., king : man :: queen : woman). They show that averaging over multiple word pairs improves the quality as well as describing a new method to measure the quality of associations using cosine similarity. Published in \textit{Proceedings of the 26th International Conference on Computational Linguistics, 2016} from Google Scholar
+
+\subsection*{Applications}
+\textbf{Phishing detection} \cite{phishing} This paper proposes a method which focuses on the semantic content of the message to detect whether it is a phishing attempt. The authors first propose extracting (verb-object) pairs by performing semantic analysis on the message text. This was fed into a Naive Bayes classifier which would generate a confidence score for those pairs to be phishing or not. Published in \textit{12th IEEE International Conference on Semantic Computing, 2018} from Google Scholar
+\\
+\\
+\textbf{Humor Detection} \cite{humordetection} The authors of this paper propose a method of automatically detecting `funny and unusual' scientific papers. The first build a dataset of such papers (using their own criteria) and use it train a multi-layer perceptron. They then compared this approach with using BERT and SciBERT using features they defined on the same dataset. This approach proved superior in terms of accuracy. Published in \textit{ACL | IJCNLP, 2021} via ACL Anthology.
+\\
+\\
+\textbf{Analysis of Schizophrenia in Reddit posts} \cite{schizoReddit} The authors explore the linguistic markers of Schizophrenia through reddit posts. They collected and analyzed a large dataset of reddit posts/comments from people who \textit{claimed} to have received a Schizophrenia diagnosis. They also trained a machine learning classifier on this data. Published in the \textit{Proceedings of Sixth Workshop on Computational Linguistics and Clinical Psychology, 2019} from the ACL Anthology.
+\\
+\\
+\textbf{Sarcasm Analysis} \cite{sarcasm} The authors propose and investigate different LSTM based NN models for detecting sarcasm from the conversational context taking into account the preceding and succeeding messages as part of the data for the classifier. It is tested on data from Twitter and discussion forums. Published in \textit{Computational Linguistics, vol 44, 2018} via the ACL Anthology. 
+\\
+\\
+\textbf{Irony Detection} \cite{irony} The authors propose a method to detect irony in tweets using manually annotated phrases and a data-driven approach to augment the current irony (sentiment) detection models. Published in \textit{Computational Linguistics, vol 44, 2018} via the ACL Anthology. 
+
+\subsection*{Miscellaneous}
+\textbf{Transfer Learning in Natural Language Processing} \cite{transferLearn} This paper presents an approach for transfer learning in NLP and show how this can be integrated in downstream NLP tasks. Published in \textit{Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics, 2019} via ACL Anthology.
+\\
+\\
+\textbf{Unsupervised Text Classification using Experts and Word Embeddings}
+\cite{unsupervisedClass} This paper explores a method to categorize documents into classes in the vein of unsupervised learning. The method described focuses on finding the similarities in the text content of the documents. This method leverages the semantic and lexical similarities to perform this classification showing resultson par with supervised models. Published in \textit{Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, 2019} via ACL Anthology.
+\\
+\\
+\textbf{Commonsense Knowledge Mining from Pretrained Models} \cite{commonsense} The authors propose a bi-directional pretrained model to perform commonsense data mining on a given corpus. They show that this model is not biased by prior data from the same problem and that this approach outperforms and generalizes better that supervised models for the same problem. Published in \textit{EMNLP-IJCNLP, 2019} via ACL Anthology. 
+\\
+\\
+\textbf{Event Extraction as Machine Reading} \cite{eventExtract} This paper models the event extraction problem as a combination of a supervised and an unsupervised step. Questions are generated form the text via an unsupervised method and BERT based question-answering process does the Event Extraction. The authors claim this enables them to strengthen the reasoning process of the Event Extraction. Published in \textit{EMNLP, 2020}, via ACL Anthology.
+\\
+\\
+\textbf{A self-supervised method for Machine Translation} \cite{selfSuper} This paper presents an emergent Neural Machine Translation (NMT) method. This system simultaneously selects training data and learns the NMT representation. This is also self-supervised and performs comparatively with regard to other supervised techniques. Published in \textit{Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics} from ACL Anthology.
+\\
+\\
+\textbf{Modeling Asynchronous Conversations} \cite{modelingAsync} The authors present a method for modeling asynchronous conversations (email etc). They propose an architecture based on LSTM-RNN which encodes the text to capture the conversational dependencies in the asynchronous context. They also adapt the model to learn from synchronous (real-time) contexts and use adversarial training to improve the performance of the model. Published in \textit{Computational Linguistics, vol 44} via ACL Anthology.
+\\
+\\
+\textbf{Catastrophic Forgetting in Neural Machine Translation} \cite{catasFor} The authors aim to resolve the problem of catastrophic forgetting in Neural Networks in the context of machine translation. They propose using Elastic Weight Consolidation which helps the model retain weights that might be lost otherwise when performing continual training on new data. The authors show that this approach beats state-of-the-art models which tend to fall prey to catastrophic forgetting. Published in \textit{Proceedings of the 29th conference of ACL, 2019} via ACL Anthology.
+
+\section*{Abusive Language Detection}
+\textbf{Checking Hatespeech Detection Models} \cite{hatespeech} This paper specifies 29 model functionalities that can be used to test models of hatespeech to indetify model and data weaknesses and biases. Published in \textit{ACL | IJCNLP, 2021} via ACL Anthology
+\\
+\\
+\textbf{Impact of Politically Biased Data on hatespeech classification} \cite{politicalHate} This paper aims to investigate the affects of dataset bias on hatespeech detection models. The authors build three different datasets with different political leanings (right, left and neutral) to show that the presence of a politial bias in the data impairs the performance of the datasets. Published in \textit{Proceedings of the Fourth Workshop on Online Abuse and Harms, 2020} from Google Scholar.
+\\
+\\
+\textbf{Automatic Harassment Classifier} \cite{harassClass} The authors present a method for classification of harassing tweets by leveraging the targets of harassment to annotate the data. The posit that this approach would reduce misclassifications as the data any classifier learns from would itself be of a higher quality and more accurate. Published in \textit{Proceedings of the Fourth Workshop on Online Abuse and Harms, 2020}, via ACL Anthology.
+\\
+\\
+\textbf{Two-Step approach for Abusive Language Classification} \cite{twoStep} The authors explore a two-step method for classifying abusive language by first classifying into whether it is abusive or not and then classifying it further into different classes. They compare it with a direct multi-class classification model using a CNN achieving comparable performance in the two step method as in the state of the art single step classification. Published in \textit{ArXiv}, from ArXiv.
+\\
+\\
+\textbf{Racial Bias in Datasets for Abusive Language detection} \cite{raceBi} This paper compares results from five different Twitter datasets to show the difference in predictions of tweets written by African Americans in Standard American English vs African American Vernacular English (AAVE). All the models trained on all five datasets predict tweets in AAVE to be abusive showing the racial bias spread over these datasets. Any systems built on these datasets would have this bias written into it. Published in \textit{ArXiv} from ArXiv.
+\\
+\\
+\textbf{Impact of Biased Datasets in Abusive Language Detection} \cite{biasData} This paper shows the influence of data bias in this task. The authors show the classification scores of many popular models were much lower once this bias was reduced by random sampling instead of focused sampling. Published in \textit{Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics, 2019} via ACL Anthology.
+\\
+\\
+\textbf{Abusive Language Detection in Online Content} \cite{abusiveLang} This paper proposes splitting the text into features built from n-grams, linguistic, syntactic and distributional semantics and training a classifier model on these. The authors are able to achieve good performance on unseen data by comparing their predicted class with labels assigned by 3 annotators on that same unseen data. Published in \textit{WWW' 16, 2016}, via Google Scholar.
+\\
+\\
+\textbf{Class-based errors to detect out-of-vocabulary hate speech} \cite{classModel} The authors propose a novel method of training a 'predict the next character' model on the abusive data and then use the error of that model to feed into a neural network classifier. This way the error is used to inform the classifier. The authors show that it outperforms other text-categorizers in out-of-vocabulary instances. Published in \textit{Proceedings of the First Workshop on Abusive Language Online, 2017}, via Google Scholar.
+\\
+\\
+\textbf{Annotator Influence on Hate Speech Detection} \cite{annoInf} This paper examines the influence of the annotator on models trained on the datasets they annotate. The author finds that amateur annotators are more likely to label text as hate speech and and models trained on datasets annotated by experts outperform models trained on datasets by expert annotators. Published in \textit{Proceedings of the first workshop on NLP and computational social science, 2016} via Google Scholar.
+\\
+\\
+\textbf{A lexicon for a feature based approach to detecting abusive words}  \cite{lexiAbu} The authors propose using features extracted from a manually defined base lexicon, which is then used to create a larger lexicon. They show that this lexicon can be used to build models which can detect abusive words in any context. Published in \textit{Proceedings of the 2018 Conference of the North {A}merican Chapter of the Association for Computational Linguistics, 2018} via Google Scholar.
+
+\bibliographystyle{ieeetr}
+\bibliography{assign1}
+\end{document}
