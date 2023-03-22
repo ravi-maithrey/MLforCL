@@ -1,8 +1,11 @@
 # Fdb version 4
-["pdflatex"] 1679510672 "/Users/ravimaith/Documents/MLforCL/assign5/assign5.tex" "assign5.pdf" "assign5" 1679510673 0
-  "/Users/ravimaith/Documents/MLforCL/assign5/assign5.tex" 1679510666 2486 66fa55e289ef1b888a41560207610e2a ""
+["pdflatex"] 1679513269 "/Users/ravimaith/Documents/MLforCL/assign5/assign5.tex" "assign5.pdf" "assign5" 1679513269 0
+  "/Users/ravimaith/Documents/MLforCL/assign5/assign5.tex" 1679513268 2811 cd6dd7f5b177be9b576196850f6b1369 ""
   "/usr/local/texlive/2022basic/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1422827479 2083 60e36f8eac802fcaf19eabe2633b406e ""
   "/usr/local/texlive/2022basic/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "/usr/local/texlive/2022basic/texmf-dist/fonts/tfm/public/newtx/NewTXMI.tfm" 1572128992 1408 ef71a9098da4d5a1a85b5920860b6731 ""
+  "/usr/local/texlive/2022basic/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-ot1.tfm" 1572470264 3080 fc4ff7ca096560a9fb1df2e62c57f9c7 ""
+  "/usr/local/texlive/2022basic/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-ot1r.tfm" 1572470264 3076 3abc541afb22a6bf21c3ba2909ef7090 ""
   "/usr/local/texlive/2022basic/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-ot1.tfm" 1600636029 3008 ca0c83ca288d9f1c5d2fca0e8e268f10 ""
   "/usr/local/texlive/2022basic/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-ot1r.tfm" 1583272976 3004 4a373e6d2f1c4c2062c68776eb8d5dfc ""
   "/usr/local/texlive/2022basic/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm" 1589834365 760 e8ec875a87aa119f1af7ea4be48da9e8 ""
@@ -16,6 +19,8 @@
   "/usr/local/texlive/2022basic/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm" 1589834365 1572 ee1610f2b8e0679b918f57086595f5a6 ""
   "/usr/local/texlive/2022basic/texmf-dist/fonts/tfm/public/newtx/txmiaX.tfm" 1634244313 1716 a6b113dfe808a82f532d14b1f370053f ""
   "/usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/newtx/ztmr.pfb" 1640468671 269694 aaa4ec66041f739d25146321feddb50c ""
+  "/usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/newtx/ztmri.pfb" 1640468671 230451 72745fed20f6a7d3da4ddd8a9b788e85 ""
+  "/usr/local/texlive/2022basic/texmf-dist/fonts/vf/public/newtx/ntx-Italic-tlf-ot1.vf" 1572470264 956 2e470d34f6c84588eb717201f2f99e2d ""
   "/usr/local/texlive/2022basic/texmf-dist/fonts/vf/public/newtx/ntx-Regular-tlf-ot1.vf" 1583272976 956 44be8e0aea9c6d145fc21c9948a6b4b5 ""
   "/usr/local/texlive/2022basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2022basic/texmf-dist/tex/generic/iftex/ifluatex.sty" 1572645307 492 1994775aa15b0d1289725a0b1bbc2d4c ""
@@ -77,8 +82,8 @@
   "/usr/local/texlive/2022basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1677271198 355824 bd3d018fbdd26a159eb34ff9f411d43b ""
   "/usr/local/texlive/2022basic/texmf-var/web2c/pdftex/pdflatex.fmt" 1672799871 2133702 7d5950e68c7c431f4057befb7a2dcf49 ""
   "/usr/local/texlive/2022basic/texmf.cnf" 1647274000 628 5a32b7ea7dd5bed632a871bee125276d ""
-  "assign5.aux" 1679510673 628 d46d2c129b53f2f7b89bfe1aa0b8934a "pdflatex"
-  "assign5.tex" 1679510666 2486 66fa55e289ef1b888a41560207610e2a ""
+  "assign5.aux" 1679513269 628 d46d2c129b53f2f7b89bfe1aa0b8934a "pdflatex"
+  "assign5.tex" 1679513268 2811 cd6dd7f5b177be9b576196850f6b1369 ""
   "first.png" 1679510115 128432 bb97ab5b58be541d2a1791a6052e61e8 ""
   "fourth.png" 1679510609 66828 2c6c2374b3746d8e10ba14aabf5a4295 ""
   "second.png" 1679510231 150959 2c068a1870e066178c19d01d86a725f7 ""

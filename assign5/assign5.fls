@@ -527,6 +527,7 @@ INPUT ./third.png
 INPUT third.png
 INPUT ./third.png
 INPUT ./third.png
+INPUT /usr/local/texlive/2022basic/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-ot1.tfm
 INPUT ./fourth.png
 INPUT ./fourth.png
 INPUT fourth.png
@@ -542,6 +543,10 @@ INPUT /usr/local/texlive/2022basic/texmf-dist/fonts/tfm/public/newtx/ntx-Regular
 INPUT /usr/local/texlive/2022basic/texmf-dist/fonts/vf/public/newtx/ntx-Regular-tlf-ot1.vf
 INPUT /usr/local/texlive/2022basic/texmf-dist/fonts/tfm/public/newtx/txmiaX.tfm
 INPUT /usr/local/texlive/2022basic/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-ot1r.tfm
+INPUT /usr/local/texlive/2022basic/texmf-dist/fonts/vf/public/newtx/ntx-Italic-tlf-ot1.vf
+INPUT /usr/local/texlive/2022basic/texmf-dist/fonts/tfm/public/newtx/NewTXMI.tfm
+INPUT /usr/local/texlive/2022basic/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-ot1r.tfm
 INPUT assign5.aux
 INPUT /usr/local/texlive/2022basic/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc
 INPUT /usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/newtx/ztmr.pfb
+INPUT /usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/newtx/ztmri.pfb

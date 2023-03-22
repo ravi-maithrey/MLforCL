@@ -63,8 +63,10 @@ hyperparameters -
     \includegraphics[scale=0.4]{third.png}
     \caption{Range of hyperparameter values for CV search}
 \end{figure}
-However, many of the ``optimal'' values provided are just the default values of the parameters. Therefore, the increase in accuracy was just 
-1\%. The final accuracy is shown below -
+However, many of the ``optimal'' values provided are just the default values of the parameters. Specifically, \textit{min\_samples\_split} which is 
+the minimum number of positive/negative examples required to split a leaf, \textit{criterion} which is the way information at each node is 
+calculated and \textit{bootstrap}, which is whether to use a bootstrapped dataset of the entire set are all at their default values.
+Therefore, the increase in accuracy was just 1\%. The final accuracy is shown below -
 \begin{figure}[H]
     \center
     \includegraphics[scale=0.4]{fourth.png}
